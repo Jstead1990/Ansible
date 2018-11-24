@@ -1,4 +1,4 @@
 ---
-- hosts: windows
+- hosts: All
   tasks:
     Win_Ping
