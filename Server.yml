@@ -1,0 +1,6 @@
+---
+- name: WinPing Test 1
+  hosts: all
+  tasks:
+    - name: WinPing Test
+    win_ping
