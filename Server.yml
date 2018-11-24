@@ -1,4 +1,5 @@
 ---
 - hosts: All
   tasks:
-    Win_Ping
+    - name: Ping Server
+      Win_Ping
