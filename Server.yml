@@ -1,5 +1,6 @@
----
-- hosts: All
+- name: WinPing 
+  hosts: all 
+
   tasks:
-    - name: Ping Server
-      Win_Ping
+  - name: WinPing
+    win_ping:
